@@ -7,9 +7,12 @@ body{
     width: 100%;
     min-height: 100vh;
     background-color: rgb(255, 255, 255);
+}
+.container-portofolio{
+    
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 .container{
     width: 100%;
@@ -21,7 +24,7 @@ body{
 main.row{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 20px ;
+    grid-column-gap: 1px ;
 }
 .col header.title{
     font-family: helvetica;
